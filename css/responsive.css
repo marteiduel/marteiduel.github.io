@@ -504,7 +504,7 @@ width: 16%;
 
 .slider-bg {
 	height: 700px;
-    background-position: 177px 0 !important;
+    /* background-position: 177px 0 !important; */
 }
 .section-t h2 {
 	font-size: 150px;
@@ -1623,7 +1623,7 @@ background: #002e5b;
 	width: 100%;
 }
 .s-video-content {
-	padding-left: 15%;
+	padding-left: 22%;
 }
 .chosse-img {
 	display: none;
