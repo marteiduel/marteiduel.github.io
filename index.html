@@ -1,38 +1,9 @@
 <!DOCTYPE html>
 <html class="no-js" lang="zxx">
   <head>
-    <!-- Google Tag Manager -->
-    <script>
-      (function (w, d, s, l, i) {
-        w[l] = w[l] || [];
-        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
-        var f = d.getElementsByTagName(s)[0],
-          j = d.createElement(s),
-          dl = l != "dataLayer" ? "&l=" + l : "";
-        j.async = true;
-        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
-        f.parentNode.insertBefore(j, f);
-      })(window, document, "script", "dataLayer", "GTM-WS3TB4N");
-    </script>
-    <!-- End Google Tag Manager -->
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-3BTT9L15SH"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "G-3BTT9L15SH");
-    </script>
-    <!-- End Google tag (gtag.js) -->
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <title>Altas DC | English</title>
+    <title>Altas DC</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
@@ -56,16 +27,6 @@
     <link rel="stylesheet" href="css/responsive.css" />
   </head>
   <body>
-    <!-- Google Tag Manager (noscript) -->
-    <noscript
-      ><iframe
-        src="https://www.googletagmanager.com/ns.html?id=GTM-WS3TB4N"
-        height="0"
-        width="0"
-        style="display: none; visibility: hidden"
-      ></iframe
-    ></noscript>
-    <!-- End Google Tag Manager (noscript) -->
     <!-- header -->
     <header class="header-area header-three">
       <div id="header-sticky" class="menu-area">
@@ -112,11 +73,7 @@
         <div class="slider-active">
           <div
             class="single-slider slider-bg slider-bg2 d-flex align-items-center"
-            style="
-              background: url(img/slider/slider_img02.jpg) no-repeat;
-              background-size: cover;
-              background-position: center top;
-            "
+            id="main-img"
           >
             <div class="container">
               <div class="row justify-content-center">
@@ -127,18 +84,19 @@
                     <h5 data-animation="fadeInDown" data-delay=".4s">
                       WELCOME
                     </h5>
-                    <h2 data-animation="fadeInUp" data-delay=".4s">
-                      Home Improvement
-                    </h2>
-                    <p data-animation="fadeInUp" data-delay=".6s">
-                      Vivamus mattis ipsum vitae imperdiet eleifend. Nunc
-                      scelerisque feugiat turpis, et tempor tellus porta vitae.
-                      Aenean hendrerit, libero sed viverra auctor, est tortor
-                      pulvinar sem, non luctus ante quam quis urna.
-                    </p>
+                    <h1 data-animation="fadeInUp" data-delay=".4s"> </h1>
+                    <h1> </h1>
+                    <div data-animation="fadeInUp" data-delay=".6s"></div>
 
                     <div class="slider-btn mt-30">
-                      <a href="#" class="btn ss-btn mr-15">Read More</a>
+                      <a
+                        href="services.html"
+                        class="btn ss-btn mr-15"
+                        data-animation="fadeInLeft"
+                        data-delay=".8s"
+                        tabindex="0"
+                        >Services</a
+                      >
                       <a
                         href="contact.html"
                         class="btn ss-btn active"
@@ -155,11 +113,7 @@
           </div>
           <div
             class="single-slider slider-bg slider-bg2 d-flex align-items-center"
-            style="
-              background: url(img/slider/slider_img01.jpg) no-repeat;
-              background-size: cover;
-              background-position: center top;
-            "
+            id="main-img2"
           >
             <div class="container">
               <div class="row justify-content-center">
@@ -170,19 +124,17 @@
                     <h5 data-animation="fadeInDown" data-delay=".4s">
                       WELCOME
                     </h5>
-                    <h2 data-animation="fadeInUp" data-delay=".4s">
-                      We Are The Best Solar <br />Energy Source
-                    </h2>
-                    <p data-animation="fadeInUp" data-delay=".6s">
-                      Vivamus mattis ipsum vitae imperdiet eleifend. Nunc
-                      scelerisque feugiat turpis, et tempor tellus porta vitae.
-                      Aenean hendrerit, libero sed viverra auctor, est tortor
-                      pulvinar sem, non luctus ante quam quis urna.
-                    </p>
+
+                    <div data-animation="fadeInUp" data-delay=".6s"></div>
 
                     <div class="slider-btn mt-30">
-                      <a href="services.html" class="btn ss-btn mr-15"
-                        >Read More</a
+                      <a
+                        href="services.html"
+                        class="btn ss-btn mr-15"
+                        data-animation="fadeInLeft"
+                        data-delay=".8s"
+                        tabindex="0"
+                        >Portfolio</a
                       >
                       <a
                         href="contact.html"
@@ -230,7 +182,7 @@
               <div class="about-content s-about-content pl-30">
                 <div class="about-title second-title pb-25">
                   <h5>ABOUT US</h5>
-                  <h2>Atlas Solar</h2>
+                  <h2>Atlas Design and Construction</h2>
                 </div>
 
                 <p>
@@ -253,7 +205,7 @@
                         <span class="progress-right">
                           <span class="progress-bar"></span>
                         </span>
-                        <div class="progress-value">100+</div>
+                        <div class="progress-value">500+</div>
                       </div>
                       <h4>Projects Completed</h4>
                     </div>
@@ -268,10 +220,10 @@
                           <span class="progress-bar"></span>
                         </span>
                         <div class="progress-value" style="font-size: 1.8rem">
-                          10,000+
+                          30+
                         </div>
                       </div>
-                      <h4>KwH Saved</h4>
+                      <h4>Years of Experience</h4>
                     </div>
                   </li>
                 </ul>
@@ -294,8 +246,8 @@
           <div class="row">
             <div class="col-lg-12">
               <div class="section-title center-align mb-50 text-center">
-                <h5>OUR SERVICES</h5>
-                <h2>What We Offer</h2>
+                <!-- <h5>OUR SERVICES</h5> -->
+                <h2>Our Services</h2>
               </div>
             </div>
           </div>
@@ -308,8 +260,9 @@
                 <div class="services-08-content">
                   <h3><a href="img/full/full-test.png">HVAC</a></h3>
                   <p>
-                    Donec vestibulum arcu a arcu scelerisque, quis dignissim
-                    turpis semper onec tortor mi, volutpat a iaculis sit amet.
+                    Outdated HVAC systems cost thousands in wasted energy. Our
+                    systems keep your house at a perfect temperature in the most
+                    energy-efficient way.
                   </p>
                 </div>
               </div>
@@ -322,8 +275,9 @@
                 <div class="services-08-content">
                   <h3><a href="services-detail.html">Insulation</a></h3>
                   <p>
-                    Donec vestibulum arcu a arcu scelerisque, quis dignissim
-                    turpis semper onec tortor mi, volutpat a iaculis sit amet.
+                    Fiberglass insulation needs to be serviced every 15-20
+                    years. We install advanced insulation that keeps outside air
+                    from getting in.
                   </p>
                 </div>
               </div>
@@ -336,8 +290,8 @@
                 <div class="services-08-content">
                   <h3><a href="services-detail.html">Attic Fans</a></h3>
                   <p>
-                    Donec vestibulum arcu a arcu scelerisque, quis dignissim
-                    turpis semper onec tortor mi, volutpat a iaculis sit amet.
+                    Is your attic scorching hot? Install an attic fan to make
+                    the most out of every square foot of your house.
                   </p>
                 </div>
               </div>
@@ -352,8 +306,8 @@
                 <div class="services-08-content">
                   <h3><a href="services-detail.html">Basement Finising</a></h3>
                   <p>
-                    Donec vestibulum arcu a arcu scelerisque, quis dignissim
-                    turpis semper onec tortor mi, volutpat a iaculis sit amet.
+                    Outdated or unfinished basements are our favorite. Let our
+                    amazing design team make you the basement of your dreams!
                   </p>
                 </div>
               </div>
@@ -366,8 +320,8 @@
                 <div class="services-08-content">
                   <h3><a href="services-detail.html">Bathroom Remodels</a></h3>
                   <p>
-                    Donec vestibulum arcu a arcu scelerisque, quis dignissim
-                    turpis semper onec tortor mi, volutpat a iaculis sit amet.
+                    From design to construction, we take care of every step to
+                    make the bathroom you've always wanted.
                   </p>
                 </div>
               </div>
@@ -380,8 +334,8 @@
                 <div class="services-08-content">
                   <h3><a href="services-detail.html">Concrete</a></h3>
                   <p>
-                    Donec vestibulum arcu a arcu scelerisque, quis dignissim
-                    turpis semper onec tortor mi, volutpat a iaculis sit amet.
+                    Cracked or damaged concrete is a headache. Our team replaces
+                    and installs concrete work anywhere you want.
                   </p>
                 </div>
               </div>
@@ -396,8 +350,8 @@
                 <div class="services-08-content">
                   <h3><a href="services-detail.html">Landscaping</a></h3>
                   <p>
-                    Donec vestibulum arcu a arcu scelerisque, quis dignissim
-                    turpis semper onec tortor mi, volutpat a iaculis sit amet.
+                    Trying to up your curb appeal? Landscaping is one of the
+                    best ways to leave others breathless in passing.
                   </p>
                 </div>
               </div>
@@ -414,8 +368,8 @@
                     <!-- </a> -->
                   </h3>
                   <p>
-                    Donec vestibulum arcu a arcu scelerisque, quis dignissim
-                    turpis semper onec tortor mi, volutpat a iaculis sit amet.
+                    Don't opt for anything else, our experienced team solves
+                    whatever plumbing challenges you're facing.
                   </p>
                 </div>
               </div>
@@ -428,8 +382,8 @@
                 <div class="services-08-content">
                   <h3><a href="services-detail.html">Kitchen Remodel</a></h3>
                   <p>
-                    Donec vestibulum arcu a arcu scelerisque, quis dignissim
-                    turpis semper onec tortor mi, volutpat a iaculis sit amet.
+                    The kitchen is the most important feature of any home. Let's
+                    build the kitchen of your dreams!
                   </p>
                 </div>
               </div>
@@ -634,48 +588,50 @@
             </div>
             <div class="col-lg-6 p-relative pl-70">
               <div class="section-title">
-                <h5>WORK FLOW</h5>
-                <h2>How We Work</h2>
+                <h5>WORKFLOW</h5>
+                <h2>Our Process</h2>
               </div>
 
               <div class="row how-box-contaniner">
                 <div class="col-lg-6 mt-30">
                   <div class="how-box">
                     <h5>01</h5>
-                    <h3>Peak Shaving</h3>
+                    <h3>Plan</h3>
                     <p>
-                      Nullam porttitorer, condimentum pharetra, tellus sapien
-                      malesuada quampulvinar efficitur justo.
+                      Our experienced designers and contractors will work
+                      one-on-one with you to help design the home of your
+                      dreams.
                     </p>
                   </div>
                 </div>
                 <div class="col-lg-6 mt-30">
                   <div class="how-box">
                     <h5>02</h5>
-                    <h3>Demand Response</h3>
+                    <h3>Approve</h3>
                     <p>
-                      Nullam porttitorer, condimentum pharetra, tellus sapien
-                      malesuada quampulvinar efficitur justo.
+                      Once the design is complete, we'll coordinate with you any
+                      changes or elements you would like to change.
                     </p>
                   </div>
                 </div>
                 <div class="col-lg-6 mt-30">
                   <div class="how-box">
                     <h5>03</h5>
-                    <h3>Load Shifting</h3>
+                    <h3>Build</h3>
                     <p>
-                      Nullam porttitorer, condimentum pharetra, tellus sapien
-                      malesuada quampulvinar efficitur justo.
+                      Sit back, relax, and our skilled construction team will
+                      complete your project in a timely manner.
                     </p>
                   </div>
                 </div>
                 <div class="col-lg-6 mt-30">
                   <div class="how-box">
                     <h5>04</h5>
-                    <h3>Renewable</h3>
+                    <h3>Inspect</h3>
                     <p>
-                      Nullam porttitorer, condimentum pharetra, tellus sapien
-                      malesuada quampulvinar efficitur justo.
+                      Don't worry about permits, inspections, or anything else.
+                      We'll do all necessary inspections to ensure that your
+                      home is beautiful and safe.
                     </p>
                   </div>
                 </div>
@@ -744,15 +700,6 @@
                     >
                   </div>
                   <h3>Why Choose Us</h3>
-                  <p>
-                    Complete account of the systems and expound the actually
-                    teachings of the great explorer of the truth, the
-                    master-builder of human uts happiness. No one rejects,
-                    dislikes, or avoids pleasure itself, because it is pleasure,
-                    but because those who do not know how to pursue pleasure
-                    rationally encounter consequences that are painful anyone
-                    who loves or pursues nyone who loves or pursues.
-                  </p>
                   <!-- Two Column -->
                   <div class="two-column">
                     <div class="row">
@@ -814,7 +761,7 @@
       <!--End Project Detail -->
 
       <!-- testimonial-area -->
-      <section
+      <!-- <section
         class="testimonial-area pb-90"
         style="
           background: url(img/bg/aliment-left2.png) no-repeat;
@@ -945,7 +892,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- testimonial-area-end -->
 
       <!-- test -->
@@ -962,9 +909,10 @@
           <div class="row align-items-center">
             <div class="col-lg-12 col-md-12">
               <div class="section-title cta-title text-center mb-30">
-                <h5>CALL TO ACTION</h5>
+                <!-- <h5>CALL TO ACTION</h5> -->
                 <h2>
-                  Providing Value To Clients Through<br />Product & Innovation.
+                  Interested in a free quote?<br />
+                  Let's get in contact!
                 </h2>
               </div>
             </div>
@@ -989,9 +937,9 @@
                   <img src="img/logo/wlogo.png" alt="img" />
                 </div>
                 <div class="footer-link">
-                  Aenean pulvinar laoreet tellus ut tinct. Praesent a lectus
+                  <!-- Aenean pulvinar laoreet tellus ut tinct. Praesent a lectus
                   egestas, finibus enim sit amet, mollis lorem. Sed a volutpat
-                  velit. Pellet habitant morbi tristique senectus et.
+                  velit. Pellet habitant morbi tristique senectus et. -->
                 </div>
                 <div class="f-contact mt-30">
                   <ul>
